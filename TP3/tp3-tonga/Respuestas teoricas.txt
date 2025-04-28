@@ -1,0 +1,27 @@
+1.	Explica qué es npm y su función en un proyecto de Node.js.
+
+npm es un manejador de paquetes, que te da la facilidad de instalar herramientas utiles de forma sencilla.
+
+
+2.	Describe la estructura básica del archivo package.json y menciona tres campos importantes.
+
+En el archivo package.json podemos encontrar, de forma estructurada, toda la información relevante del proyecto,
+tales como la versión, licencias, descripción, autores, etc. 3 campos importantes serian script, dependencies y devDependencies
+
+
+3.	¿Cuál es la diferencia entre dependencias normales y dependencias de desarrollo en npm?
+
+Las dependencias "normales" estan en todo el proyecto, incluido el que se sube al final.
+Las dev dependencies estan exclusivamente durante el desarrollo, y no son incluidas a la hora de
+publicar los paquetes
+
+
+4.	¿Qué comando utilizamos para actualizar un paquete instalado en nuestro proyecto?
+
+Se utiliza npm update
+
+
+5.	¿Para que se utiliza el comando npm link? 
+
+npm link permite a un desarrollador cambiar el contenido de un paquete y que dicho nuevo contenido sea reflejado instantaneamente sin la necesidad
+de reconstruir, redescargar o reinstalar el paquete, esto se utiliza principalmente para testear funcionalidades durante el desarrollo de nuevos paquetes.

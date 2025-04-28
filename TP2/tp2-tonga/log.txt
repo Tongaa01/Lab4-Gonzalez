@@ -1,0 +1,5 @@
+    [2025-03-19 01:08:11] - Inicio del programa 
+
+    [2025-03-19 01:08:11] - Ejecutando tarea... 
+
+    [2025-03-19 01:08:16] - Fin del programa 
